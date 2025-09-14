@@ -4,9 +4,9 @@
       widgets:
         $include: ../widgets/proxmox.yml
 
-    # - size: full
-    #   widgets:
-    #     $include: ../widgets/monitors.yml
+     - size: full
+       widgets:
+         $include: ../widgets/monitors.yml
 
     # - size: small
     #   widgets:
