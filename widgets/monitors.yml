@@ -2,21 +2,17 @@
   cache: 1m
   title: Services
   sites:
-    - title: Jellyfin
-      url: https://yourdomain.com/
-      icon: si:jellyfin
-    - title: Gitea
-      url: https://yourdomain.com/
-      icon: si:gitea
-    - title: qBittorrent # only for Linux ISOs, of course
-      url: https://yourdomain.com/
-      icon: si:qbittorrent
-    - title: Immich
-      url: https://yourdomain.com/
-      icon: si:immich
-    - title: AdGuard Home
-      url: https://yourdomain.com/
-      icon: si:adguard
-    - title: Vaultwarden
-      url: https://yourdomain.com/
-      icon: si:vaultwarden
+    - title: Proxmox
+      url: ${PROXMOX_URL}
+      icon: di:proxmox
+      allow-insecure: true
+    - title: PiHole
+      url: ${PIHOLE_URL}/admin
+      check-url: ${PIHOLE_URL}
+      icon: di:pi-hole
+    - title: N8n
+      url: ${N8N_URL}
+      icon: di:n8n
+    - title: Portainer
+      url: ${PORTAINER_URL}
+      icon: di:docker
