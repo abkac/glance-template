@@ -7,6 +7,6 @@ theme:
 
 pages:
   - $include: pages/homelab.yml
-  # - $include: pages/feed.yml
+  - $include: pages/feed.yml
 branding:
   logo-text: "root@amkac:~#"
