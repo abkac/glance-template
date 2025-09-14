@@ -1,8 +1,8 @@
 - name: Homelab
   columns:
-    # - size: small
-    #   widgets:
-    #     $include: ../widgets/proxmox.yml
+    - size: small
+      widgets:
+        $include: ../widgets/proxmox.yml
 
     - size: full
       widgets:
