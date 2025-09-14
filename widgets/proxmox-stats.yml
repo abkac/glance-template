@@ -1,5 +1,5 @@
 - type: custom-api
-  title: Proxmox
+  title: Proxmox Stats
   cache: 1m
   url: https://${PROXMOX_IP}:${PROXMOX_PORT}/api2/json/cluster/resources
   allow-insecure: true

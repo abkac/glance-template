@@ -2,7 +2,7 @@
   columns:
     - size: small
       widgets:
-        $include: ../widgets/proxmox.yml
+        $include: ../widgets/proxmox-stats.yml
 
     - size: full
       widgets:
