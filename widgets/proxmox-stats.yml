@@ -104,6 +104,10 @@
         font-size: 0.85em;
         color: var(--color-text-base);
       }
+
+      .separator {
+        border-top: 1px solid rgba(255,255,255,0.05);
+      }
     </style>
 
     <div class="flex flex-column gap-5">
@@ -179,6 +183,7 @@
           </div>
         </div>
       </div>
+      <hr class="separator" />
       <!-- widget 2 -->
       <div class="flex justify-between text-center">
         <div>
