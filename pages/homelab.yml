@@ -3,6 +3,7 @@
     - size: small
       widgets:
         $include: ../widgets/proxmox-stats.yml
+        $include: ../widgets/proxmox-nodes.yml
 
     - size: full
       widgets:
