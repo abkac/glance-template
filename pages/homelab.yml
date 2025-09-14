@@ -9,7 +9,6 @@
       widgets:
         $include: ../widgets/monitors.yml
 
-    # - size: small
-    #   widgets:
-    #     $include: ../widgets/pihole.yml
-    #     $include: ../widgets/bookmarks.yml
+    - size: small
+      widgets:
+        $include: ../widgets/pihole.yml
