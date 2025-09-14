@@ -8,7 +8,7 @@
       allow-insecure: true
     - title: PiHole
       url: ${PIHOLE_URL}/admin
-      check-url: ${PIHOLE_URL}
+      check-url: ${PIHOLE_URL}/admin
       icon: di:pi-hole
     - title: N8n
       url: ${N8N_URL}
@@ -16,3 +16,4 @@
     - title: Portainer
       url: ${PORTAINER_URL}
       icon: di:docker
+      allow-insecure: true
