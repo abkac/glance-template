@@ -1,4 +1,4 @@
 - type: dns-stats
-  service: pihole
+  service: pihole-v6
   url: ${PIHOLE_URL}
   password: ${PIHOLE_TOKEN}
