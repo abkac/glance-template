@@ -13,8 +13,8 @@
     - title: N8n
       url: ${N8N_URL}
       icon: di:n8n
-    - title: Meale
-      url: ${N8N_URL}
+    - title: Mealie
+      url: ${MEALIE_URL}
       icon: di:mealie
     - title: Portainer
       url: ${PORTAINER_URL}
