@@ -15,6 +15,7 @@
       icon: di:n8n
     - title: Mealie
       url: ${MEALIE_URL}
+      check-url: ${MEALIE_URL}/api/app/about
       icon: di:mealie
     - title: Portainer
       url: ${PORTAINER_URL}
@@ -22,7 +23,6 @@
       allow-insecure: true
 
 - type: monitor
-  cache: 1m
   title: Cloud Services
   sites:
     - title: Tailscale
