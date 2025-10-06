@@ -5,7 +5,7 @@
     - title: Proxmox
       url: ${PROXMOX_URL}
       icon: di:proxmox
-      allow-insecure: true
+      # allow-insecure: true
     - title: PiHole
       url: ${PIHOLE_URL}/admin
       check-url: ${PIHOLE_URL}/admin
