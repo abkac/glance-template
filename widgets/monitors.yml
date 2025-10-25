@@ -6,12 +6,15 @@
       url: ${PROXMOX_URL}
       icon: di:proxmox
       # allow-insecure: true
-    - title: Home Assistant
-      url: ${HOME_ASSISTANT_URL}
-      icon: di:home-assistant
     - title: N8n
       url: ${N8N_URL}
       icon: di:n8n
+    - title: Home Assistant
+      url: ${HOME_ASSISTANT_URL}
+      icon: di:home-assistant
+    - title: Zigbee2MQTT
+      url: ${ZIGBEE2MQTT_URL}
+      icon: di:zigbee2mqtt
     - title: Keycloak
       url: ${KEYCLOAK_URL}
       icon: di:keycloak
