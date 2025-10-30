@@ -1,0 +1,27 @@
+- type: bookmarks
+  groups:
+    - links:
+        - title: ProxmoxVE Helper scripts
+          url: https://community-scripts.github.io/ProxmoxVE/
+        - title: Glance community widgets
+          url: https://github.com/glanceapp/community-widgets
+        - title: Selfhosted
+          url: https://github.com/awesome-selfhosted/awesome-selfhosted
+    - title: Repos
+      color: 10 70 50
+      links:
+        - title: Notes
+          url: https://github.com/amkac/notes
+        - title: FlouVest
+          url: https://github.com/amkac/FlouVest
+        - title: MoraleInsight
+          url: https://github.com/amkac/morale-insight
+        - title: amkac-lab
+          url: https://github.com/amkac/amkac-lab
+    - title: Social
+      color: 200 50 50
+      links:
+        - title: Reddit
+          url: https://www.reddit.com/
+        - title: Twitter
+          url: https://twitter.com/
