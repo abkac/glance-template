@@ -32,6 +32,14 @@
       allow-insecure: true
 
 - type: monitor
+  cache: 1m
+  title: Monitoring
+  sites:
+    - title: Beszel
+      url: ${BESZEL_URL}
+      icon: di:beszel
+
+- type: monitor
   title: Cloud Services
   sites:
     - title: Tailscale
@@ -39,7 +47,7 @@
       icon: di:tailscale
     - title: Github
       url: ${GITHUB_URL}
-      icon: di:github
+      icon: di:github-light
     - title: AWS
       url: ${AWS_CONSOLE_URL}
       icon: di:aws
