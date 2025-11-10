@@ -6,9 +6,9 @@
       url: ${PROXMOX_URL}
       icon: di:proxmox
       # allow-insecure: true
-    - title: N8n
-      url: ${N8N_URL}
-      icon: di:n8n
+    - title: Karakeep
+      url: ${KAREKEEP_URL}
+      icon: di:karakeep
     - title: Home Assistant
       url: ${HOME_ASSISTANT_URL}
       icon: di:home-assistant
@@ -18,10 +18,6 @@
     - title: Keycloak
       url: ${KEYCLOAK_URL}
       icon: di:keycloak
-    - title: Mealie
-      url: ${MEALIE_URL}
-      check-url: ${MEALIE_URL}/api/app/about
-      icon: di:mealie
     - title: PiHole
       url: ${PIHOLE_URL}/admin
       check-url: ${PIHOLE_URL}/admin
@@ -30,6 +26,16 @@
       url: ${PORTAINER_URL}
       icon: di:docker
       allow-insecure: true
+    - title: N8n
+      url: ${N8N_URL}
+      icon: di:n8n
+    - title: Mealie
+      url: ${MEALIE_URL}
+      check-url: ${MEALIE_URL}/api/app/about
+      icon: di:mealie
+    - title: Audiobookshelf
+      url: ${AUDIOBOOKSHELF_URL}
+      icon: di:audiobookshelf
 
 - type: monitor
   cache: 1m
