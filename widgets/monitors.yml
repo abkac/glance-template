@@ -36,6 +36,9 @@
     - title: Audiobookshelf
       url: ${AUDIOBOOKSHELF_URL}
       icon: di:audiobookshelf
+    - title: InfluxDB
+      url: ${INFLUXDB_URL}
+      icon: di:influxdb
 
 - type: monitor
   cache: 1m
@@ -44,6 +47,9 @@
     - title: Beszel
       url: ${BESZEL_URL}
       icon: di:beszel
+    - title: Grafana
+      url: ${GRAFANA_URL}
+      icon: di:grafana
 
 - type: monitor
   title: Cloud Services
