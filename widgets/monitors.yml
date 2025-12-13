@@ -39,6 +39,9 @@
     - title: InfluxDB
       url: ${INFLUXDB_URL}
       icon: di:influxdb
+    - title: Plane
+      url: ${PLANE_URL}
+      icon: di:plane
 
 - type: monitor
   cache: 1m
@@ -50,6 +53,14 @@
     - title: Grafana
       url: ${GRAFANA_URL}
       icon: di:grafana
+
+- type: monitor
+  cache: 1m
+  title: Media
+  sites:
+    - title: Qbittorrent
+      url: ${QBITTORRENT_URL}
+      icon: di:qbittorrent
 
 - type: monitor
   title: Cloud Services
