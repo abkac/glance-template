@@ -58,9 +58,24 @@
   cache: 1m
   title: Media
   sites:
+    - title: Plex
+      url: ${PLEX_URL}
+      icon: di:plex
+    - title: Overseerr
+      url: ${OVERSEERR_URL}
+      icon: di:overseerr
     - title: Qbittorrent
       url: ${QBITTORRENT_URL}
       icon: di:qbittorrent
+    - title: Prowlarr
+      url: ${PROWLARR_URL}
+      icon: di:prowlarr
+    - title: Radarr
+      url: ${RADARR_URL}
+      icon: di:radarr
+    - title: Sonarr
+      url: ${SONARR_URL}
+      icon: di:sonarr
 
 - type: monitor
   title: Cloud Services
