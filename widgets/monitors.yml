@@ -39,9 +39,6 @@
     - title: InfluxDB
       url: ${INFLUXDB_URL}
       icon: di:influxdb
-    - title: Plane
-      url: ${PLANE_URL}
-      icon: di:plane
 
 - type: monitor
   cache: 1m
@@ -53,6 +50,9 @@
     - title: Grafana
       url: ${GRAFANA_URL}
       icon: di:grafana
+    - title: Uptime Kuma
+      url: ${UPTIME_KUMA_URL}
+      icon: di:uptime-kuma
 
 - type: monitor
   cache: 1m
