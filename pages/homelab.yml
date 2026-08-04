@@ -11,6 +11,6 @@
 
     - size: small
       widgets:
-        $include: ../widgets/pihole.yml
         $include: ../widgets/speedtest.yml
+        $include: ../widgets/pihole.yml
         $include: ../widgets/bookmarks.yml
