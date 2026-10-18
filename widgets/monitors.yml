@@ -67,6 +67,7 @@
     - title: Plex
       url: ${PLEX_URL}
       check-url: ${PLEX_URL}/identity
+      allow-insecure: true
       icon: di:plex
     - title: Overseerr
       url: ${OVERSEERR_URL}
