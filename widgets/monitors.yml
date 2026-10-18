@@ -58,7 +58,7 @@
       icon: di:uptime-kuma
     - title: Speedtest Tracker
       url: ${SPEEDTEST_VPN_URL}
-      icon: di:speedtest-tracker
+      icon: di:speedtest-tracker.png
 
 - type: monitor
   cache: 1m
