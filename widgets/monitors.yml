@@ -66,6 +66,7 @@
   sites:
     - title: Plex
       url: ${PLEX_URL}
+      check-url: ${PLEX_URL}/identity
       icon: di:plex
     - title: Overseerr
       url: ${OVERSEERR_URL}
