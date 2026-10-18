@@ -39,6 +39,9 @@
     - title: InfluxDB
       url: ${INFLUXDB_URL}
       icon: di:influxdb
+    - title: Nginx Proxy Manager
+      url: ${NGINX_PROXY_MANAGER_URL}
+      icon: di:nginx-proxy-manager
 
 - type: monitor
   cache: 1m
@@ -55,7 +58,7 @@
       icon: di:uptime-kuma
     - title: Speedtest Tracker
       url: ${SPEEDTEST_VPN_URL}
-      icon: di:speedtest
+      icon: di:speedtest-tracker
 
 - type: monitor
   cache: 1m
