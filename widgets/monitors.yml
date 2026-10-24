@@ -4,16 +4,19 @@
   sites:
     - title: Proxmox
       url: ${PROXMOX_URL}
+      check-url: https://pve.${LAN_DOMAIN}
       icon: di:proxmox
       # allow-insecure: true
     - title: Karakeep
       url: ${KAREKEEP_URL}
+      check-url: https://karakeep.${LAN_DOMAIN}
       icon: di:karakeep
     - title: Home Assistant
       url: ${HOME_ASSISTANT_URL}
       icon: di:home-assistant
     - title: Zigbee2MQTT
       url: ${ZIGBEE2MQTT_URL}
+      check-url: https://zigbee.${LAN_DOMAIN}
       icon: di:zigbee2mqtt
     - title: Keycloak
       url: ${KEYCLOAK_URL}
@@ -24,10 +27,12 @@
       icon: di:pi-hole
     - title: Portainer
       url: ${PORTAINER_URL}
+      check-url: https://portainer.${LAN_DOMAIN}
       icon: di:docker
       allow-insecure: true
     - title: N8n
       url: ${N8N_URL}
+      check-url: https://n8n.${LAN_DOMAIN}
       icon: di:n8n
     - title: Mealie
       url: ${MEALIE_URL}
@@ -35,12 +40,15 @@
       icon: di:mealie
     - title: Audiobookshelf
       url: ${AUDIOBOOKSHELF_URL}
+      check-url: https://audiobook.${LAN_DOMAIN}
       icon: di:audiobookshelf
     - title: InfluxDB
       url: ${INFLUXDB_URL}
+      check-url: https://influxdb.${LAN_DOMAIN}
       icon: di:influxdb
     - title: Nginx Proxy Manager
       url: ${NGINX_PROXY_MANAGER_URL}
+      check-url: https://npm.${LAN_DOMAIN}
       icon: di:nginx-proxy-manager
 
 - type: monitor
@@ -49,15 +57,19 @@
   sites:
     - title: Beszel
       url: ${BESZEL_URL}
+      check-url: https://beszel.${LAN_DOMAIN}
       icon: di:beszel
     - title: Grafana
       url: ${GRAFANA_URL}
+      check-url: https://grafana.${LAN_DOMAIN}
       icon: di:grafana
     - title: Uptime Kuma
       url: ${UPTIME_KUMA_URL}
+      check-url: https://uptime.${LAN_DOMAIN}
       icon: di:uptime-kuma
     - title: Speedtest Tracker
       url: ${SPEEDTEST_VPN_URL}
+      check-url: https://speedtest.${LAN_DOMAIN}
       icon: di:speedtest-tracker.png
 
 - type: monitor
@@ -71,18 +83,23 @@
       icon: di:plex
     - title: Overseerr
       url: ${OVERSEERR_URL}
+      check-url: https://seerr.${LAN_DOMAIN}
       icon: di:overseerr
     - title: Qbittorrent
       url: ${QBITTORRENT_URL}
+      check-url: https://qbittorrent.${LAN_DOMAIN}
       icon: di:qbittorrent
     - title: Prowlarr
       url: ${PROWLARR_URL}
+      check-url: https://prowlarr.${LAN_DOMAIN}
       icon: di:prowlarr
     - title: Radarr
       url: ${RADARR_URL}
+      check-url: https://radarr.${LAN_DOMAIN}
       icon: di:radarr
     - title: Sonarr
       url: ${SONARR_URL}
+      check-url: https://sonarr.${LAN_DOMAIN}
       icon: di:sonarr
 
 - type: monitor
