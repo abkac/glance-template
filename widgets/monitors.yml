@@ -13,6 +13,7 @@
       icon: di:karakeep
     - title: Home Assistant
       url: ${HOME_ASSISTANT_URL}
+      check-url: ${HOME_ASSISTANT_LAN_URL}
       icon: di:home-assistant
     - title: Zigbee2MQTT
       url: ${ZIGBEE2MQTT_URL}
@@ -20,6 +21,7 @@
       icon: di:zigbee2mqtt
     - title: Keycloak
       url: ${KEYCLOAK_URL}
+      check-url: https://keycloak.${LAN_DOMAIN}
       icon: di:keycloak
     - title: PiHole
       url: ${PIHOLE_URL}/admin
