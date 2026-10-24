@@ -21,7 +21,7 @@
       icon: di:zigbee2mqtt
     - title: Keycloak
       url: ${KEYCLOAK_URL}
-      check-url: https://keycloak.${LAN_DOMAIN}
+      check-url: https://keycloak.${LAN_DOMAIN}/realms/master
       icon: di:keycloak
     - title: PiHole
       url: ${PIHOLE_URL}/admin
@@ -80,7 +80,7 @@
   sites:
     - title: Plex
       url: ${PLEX_URL}
-      check-url: ${PLEX_URL}/identity
+      check-url: https://plex.${LAN_DOMAIN}/identity
       allow-insecure: true
       icon: di:plex
     - title: Overseerr
